@@ -1,0 +1,29 @@
+Server
+(base) C:\Users\USER>cd C:\python2
+
+(base) C:\python2>server.py
+
+(base) C:\python2>server.py
+
+(base) C:\python2>python server.py
+Host: localhost
+Port: 0001
+New connection at ID 0 ('127.0.0.1', 49396)
+New connection at ID 1 ('127.0.0.1', 49399)
+ID 1: Hai apa kabar tod
+ID 1: Lagi apa
+ID 0: Hai juga
+ID 0: halo
+ID 1: hai
+
+Client
+(base) C:\Users\USER>cd C:\python2
+
+(base) C:\python2>python client.py
+Host: localhost
+Port: 0001
+Hai apa kabar tod
+Lagi apa
+Hai juga
+halo
+hai
